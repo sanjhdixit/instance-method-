@@ -1,0 +1,19 @@
+//1. RECTANGLE
+
+struct Size { 
+var length: Double
+var breadth: Double
+func area() ->Double {
+    length*breadth
+}
+} 
+var sizeOfRect = Size(length: 5, breadth: 7) 
+let area = sizeOfRect.area()
+print (area)
+
+
+
+
+
+
+
